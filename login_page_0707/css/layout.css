@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  background: #20323D; }
+
+img {
+  width: 100%; }
+
+h1 {
+  font-size: 30pt; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix:after {
+    clear: both;
+    overflow: hidden;
+    content: "";
+    display: table; }
+  .clearfix:before {
+    content: "";
+    display: table; }
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: 0 auto; }
+
+.container {
+  padding: 15px 30px;
+  /*title*/
+  /*input*/ }
+  .container .title-left {
+    position: relative;
+    float: left;
+    text-align: center; }
+  .container .title-right {
+    position: relative;
+    float: right;
+    text-align: center; }
+  .container .input-table {
+    height: 400px;
+    display: table;
+    width: 100%; }
+    .container .input-table .input-table-cell {
+      display: table-cell;
+      vertical-align: middle; }
+      .container .input-table .input-table-cell .input {
+        color: #00BD87;
+        border: none; }
+        .container .input-table .input-table-cell .input #input {
+          color: #fff; }
+        .container .input-table .input-table-cell .input .input-inner {
+          width: 100%; }
+          .container .input-table .input-table-cell .input .input-inner i.fa {
+            position: absolute;
+            left: 50px;
+            margin-top: 20px; }
+          .container .input-table .input-table-cell .input .input-inner input {
+            background: #20323D;
+            width: calc(100% - 45px);
+            height: 40px;
+            margin: 5px 0;
+            border-radius: 50px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #00BD87;
+            padding-left: 40px; }
+      .container .input-table .input-table-cell .remarks {
+        font-size: 10pt; }
+        .container .input-table .input-table-cell .remarks .remarks-left {
+          position: relative;
+          float: left; }
+          .container .input-table .input-table-cell .remarks .remarks-left input[type="checkbox"] {
+            -webkit-appearance: none;
+            vertical-align: middle;
+            margin-top: 0;
+            background: #20323D;
+            border: #00BD87 solid 2px;
+            border-radius: 5px;
+            min-height: 20px;
+            min-width: 20px;
+            margin-right: 15px; }
+          .container .input-table .input-table-cell .remarks .remarks-left input[type=checkbox]:checked::after {
+            content: '';
+            top: 5px;
+            left: 8px;
+            position: absolute;
+            background: transparent;
+            border: #00BD87 solid 2px;
+            border-top: none;
+            border-right: none;
+            height: 6px;
+            width: 10px;
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+        .container .input-table .input-table-cell .remarks .remarks-right {
+          position: relative;
+          float: right; }
+          .container .input-table .input-table-cell .remarks .remarks-right a {
+            color: #00BD87;
+            text-decoration: none; }
+  .container .button input {
+    width: 100%;
+    border: 0;
+    background-color: #00BD87;
+    color: #fff;
+    border-radius: 50px;
+    padding: 9px 0;
+    font-size: 15pt; }
+  .container .button p {
+    font-size: 9pt;
+    text-align: center; }
